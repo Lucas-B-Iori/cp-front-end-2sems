@@ -14,7 +14,7 @@ body {
 }
 
 section, header {
-  margin: 30px 12vw;
+  margin: 30px 9vw;
 }
 
 section:not(:first-of-type):not(:last-of-type) {
@@ -242,7 +242,7 @@ header .perfil__foto {
 .infos {
   display: flex;
   gap: 100px;
-  margin: 0 12vw;
+  /* margin: 0 12vw; */
 }
 
 .infos__meta {
@@ -549,6 +549,67 @@ header .perfil__foto {
   text-decoration: underline;
 }
 
+/* COMENTARIOS */
+
+.comentarios__avaliacao {
+  padding: 42px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  border-bottom: 1px solid #a4a4a4;
+}
+
+.comentarios__avaliacao_especifica {
+  border-left: 1px solid #a4a4a4;
+  display: flex;
+  flex-direction: column;
+  padding-left: 18px;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.comentarios__avaliacao_especifica span {
+  font-weight: 600;
+}
+
+.comentarios__avaliacao_especifica i {
+  font-size: 1.8rem;
+}
+
+.comentarios__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.comentario {
+  padding: 48px 0;
+  max-width: 40%;
+}
+
+.comentario__pessoa {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.comentario__pessoa img {
+  border-radius: 50%;
+  width: 12%;
+}
+
+.comentario__avaliacao {
+  display: flex;
+  gap: 12px;
+  padding: 10px 0;
+}
+
+.comentario__texto {
+  font-weight: 300;
+  line-height: 1.65rem;
+  letter-spacing: 0.05rem;
+}
 
 /* MAPA */
 
@@ -663,7 +724,7 @@ footer {
 }
 
 .container__footer_um, .container__footer_dois, .container__footer_tres, .container__footer_quatro {
-  padding: 35px 12vw;
+  padding: 35px 9vw;
 }
 
 /* .container__footer_um {

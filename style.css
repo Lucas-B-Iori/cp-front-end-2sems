@@ -237,6 +237,66 @@ header .perfil__foto {
   display: inline;
 }
 
+/* MODAL */
+
+.fade {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.modal {
+  position: fixed;
+  top: 15%;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px #000;
+  z-index: 2;
+  background-color: #fff;
+  /* padding: 23px; */
+}
+
+.modal__header {
+  text-align: right;
+  padding: 8px;
+  border-radius: 15px 15px 0 0;
+}
+
+.modal__header i {
+  padding-right: 14px;
+  cursor: pointer;
+}
+
+.modal__body {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal__body img {
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px #000;
+}
+
+.modal__body button {
+  border-radius: 50%;
+  padding: 12px 17px;
+  border: none;
+  background-color: #8f8f8f;
+  font-size: 18px;
+  cursor: pointer;
+}
+
 /* INFOS */
 
 .infos {

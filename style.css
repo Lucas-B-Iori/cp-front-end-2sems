@@ -111,6 +111,7 @@ header .perfil {
   transition: .3s;
   font-size: 15px;
   align-items: center;
+  position: relative;
 }
 
 header .perfil .menu-hamburguer {
@@ -129,6 +130,24 @@ header .perfil .menu-hamburguer__linha {
 header .perfil__foto {
   width: 55%;
   border-radius: 50px;
+}
+
+header .perfil .menu__flutuante {
+  z-index: 2;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 13vw;
+  gap: 20px;
+  padding: 22px 10px;
+  box-shadow: -1px -1px 10px #c4c1c1;
 }
 
 /* SEÇÃO FOTOS */
@@ -181,6 +200,10 @@ header .perfil__foto {
   text-decoration: underline;
   font-size: 14.5px;
   font-weight: 500;
+}
+
+.fotos__container_funcoes .fill {
+  color: #ff0000;
 }
 
 .fotos__principal {

@@ -36,7 +36,7 @@ header .logo {
 }
 
 header .logo img {
-  width: 33%;
+  width: 80%;
 }
 
 header .menu {
@@ -958,7 +958,7 @@ footer {
   }
 
   header .menu {
-    flex: 1;
+    /* flex: 1; */
   }
 
   header .anuncio-espaco {
@@ -1026,6 +1026,11 @@ footer {
     order: 2;
   }
 
+  .fotos .fotos__principal {
+    display: flex;
+    overflow-x: scroll;
+  }
+
   .fotos__container_titulo {
     margin: 16px;
     margin-bottom: 0;
@@ -1091,6 +1096,15 @@ footer {
 
   .comentarios {
     order: 5;
+  }
+
+  .comentarios__container {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+
+  .comentario {
+    min-width: 90vw;
   }
 
   .mapa {
@@ -1204,5 +1218,31 @@ footer {
     flex-direction: column-reverse;
     align-items: start;
     gap: 28px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .infos__meta {
+    width: 80vw;
+  }
+
+  .infos__alugar .container__reservar button {
+    width: 25%;
+    margin-left: 30vw;
+    font-size: 0.9rem;
+  }
+
+  .container__footer_dois_cidades, .container__footer_dois_acomodacoes {
+    height: fit-content;
+  }
+
+  .container__footer_dois_cidades ul, .container__footer_dois_acomodacoes ul {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .infos__alugar .container__reservar button {
+    width: 30%;
   }
 }

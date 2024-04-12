@@ -28,11 +28,11 @@ header {
   align-items: center;
   gap: 21px;
   padding: 21px 0;
-  margin: 0 12vw;
+  margin: 0 9vw;
 } 
 
 header .logo {
-  flex: 2;
+  /* flex: 2; */
 }
 
 header .logo img {
@@ -948,7 +948,7 @@ footer {
   }
 
   header .logo {
-    flex: .5;
+    /* flex: .5; */
     /* width: 50%;
     height: 100%; */
   }

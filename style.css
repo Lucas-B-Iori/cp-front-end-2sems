@@ -951,15 +951,12 @@ footer {
     max-width: 100vw;
   }
 
-<<<<<<< HEAD
-=======
   header .logo {
     /* flex: .5; */
     /* width: 50%;
     height: 100%; */
   }
 
->>>>>>> 4bb97249573aee2bcfca128c17e73c5af7107968
   header .logo img {
     width: 60%;
   }
